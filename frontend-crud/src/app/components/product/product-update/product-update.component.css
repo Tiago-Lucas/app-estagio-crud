@@ -1,0 +1,21 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+button{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+::ng-deep .mat-form-field-underline, ::ng-deep .mat-form-field-ripple {
+    background-color: white !important;
+    color: #FFFF !important
+  }
+  
+  ::ng-deep .mat-form-field-empty.mat-form-field-label {
+      color:#FFFF;
+      
+  }
+  ::ng-deep .mat-form-field-appearance-legacy.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+    color:#FFFF;
+}

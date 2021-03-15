@@ -1,0 +1,25 @@
+
+
+<mat-card>
+    <mat-card-title>Novo Produto</mat-card-title>
+  <form #f="ngForm">
+    <mat-form-field>
+        <input matInput  placeholder="Nome do Veículo:" [(ngModel)]="product.nameProduct" name="nameProduct" required="requerid">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Marca do Veículo:" [(ngModel)]="product.model " name="model" required="requerid" >
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput  placeholder="Preço do Veículo (R$):" [(ngModel)]="product.price" name="price" type="number" required="required" >
+    </mat-form-field>
+</form>
+<button mat-raised-button (click)="createProduct()" color="accent" [disabled]="!f.valid">
+    Salvar
+    </button>
+    <button mat-raised-button (click)="cancel()"  color="warn">
+    Cancelar
+    </button>
+</mat-card>
+
+
+

@@ -1,0 +1,22 @@
+{
+  "Products": [
+    {
+      "nameProduct": "celta",
+      "model": "chevrolet",
+      "price": 12,
+      "id": 2
+    },
+    {
+      "nameProduct": "astra",
+      "model": "chevrolet",
+      "price": 50000,
+      "id": 3
+    },
+    {
+      "nameProduct": "carro",
+      "model": "wolksvagem",
+      "price": 50000,
+      "id": 4
+    }
+  ]
+}

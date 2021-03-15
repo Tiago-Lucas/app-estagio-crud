@@ -1,0 +1,39 @@
+.home .title{
+    font-size:3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.mat-card-subtitle{
+    color:#FFF;
+    font-size: 1.1rem;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    color: #FFFF;
+}
+
+button{
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.mat-card{
+    background-color:#474A51;
+    color: #FFFF;
+    font-size: 100;
+    
+}
+::ng-deep .mat-form-field-underline, ::ng-deep .mat-form-field-ripple {
+    background-color: white !important;
+    color: #FFFF !important
+  }
+  
+  ::ng-deep .mat-form-field-empty.mat-form-field-label {
+      color:#FFFF;
+      
+  }
+  ::ng-deep .mat-form-field-appearance-legacy.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+    color:#FFFF;
+}
