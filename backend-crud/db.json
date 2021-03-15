@@ -1,12 +1,6 @@
 {
   "Products": [
     {
-      "nameProduct": "celta",
-      "model": "chevrolet",
-      "price": 12,
-      "id": 2
-    },
-    {
       "nameProduct": "astra",
       "model": "chevrolet",
       "price": 50000,
